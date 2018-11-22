@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif
+}
+
+#root {
+    max-width: 980px;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.input-group input {
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-group button {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+kbd {
+    background: #e4e4e4;
+    padding: 3px;
+}
